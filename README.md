@@ -1,17 +1,12 @@
-# LUSTAVIA NETWORK DApp
+# Starter Next/Hardhat Project
 
-This decentralized application (DApp) allows you to interact with an Ethereum smart contract to deposit and withdraw Ether (ETH). It also tracks your transaction history for transparency.
+After cloning the github, you will want to do the following to get the code running on your computer.
 
-## Features
+1. Inside the project directory, in the terminal type: npm i
+2. Open two additional terminals in your VS code
+3. In the second terminal type: npx hardhat node
+4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+5. Back in the first terminal, type npm run dev to launch the front-end.
 
-- Connect your MetaMask wallet to interact with the DApp.
-- View your account balance and transaction history.
-- Deposit and withdraw 1 ETH with the click of a button.
-
-## Setup 
-
-1. **MetaMask Wallet:** Ensure you have MetaMask installed in your browser. You can download it from [MetaMask](https://metamask.io/).
-
-2. **Node.js and npm:** Make sure you have Node.js (which includes npm) installed on your system. You can download it from [Node.js](https://nodejs.org/).
-
-(I personally ran this using VS code but use whatever feels correct.)
+After this, the project will be running on your localhost. 
+Typically at http://localhost:3000/
